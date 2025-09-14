@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Log-in Form</title>
 </head>
 <body>
+    <h1 style="text-align: center; font-family: 'Georgia', serif; color: #333; margin-top: 40px;">
+   Monitor Lizard Order Form
+</h1>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <hr>
+    <h2>Lizard Details</h2>
+<div style="padding: 22px; max-width: 1000px; font-size: 18px; line-height: 1.6;">
+
+  <h3>Asian Water Monitor</h3>
+
+  <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
+
+    <!-- Left Column: Images -->
+    <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px;">
+      <div>
+        <img src="https://i.pinimg.com/originals/a3/cf/ba/a3cfba3880641f5b1f4fca8642662475.jpg" 
+             alt="Asian Water Monitor" 
+             style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+      </div>
+
+      <div>
+        <img src="https://a-z-animals.com/media/2018/09/Monitor-lizard-header.jpg" 
+             alt="Asian Water Monitor Close-up" 
+             style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+      </div>
+
+      <p style="font-size: 14px; color: #555; margin-top: 8px;">
+        By <a href="//commons.wikimedia.org/w/index.php?title=User:Kongkham6211&amp;action=edit&amp;redlink=1" title="User:Kongkham6211 (page does not exist)">Kongkham6211</a> – 
+        <span>Own work</span>, 
+        <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, 
+        <a href="https://commons.wikimedia.org/w/index.php?curid=70950731">Source</a>
+      </p>
+    </div>
+
+    <!-- Right Column: Text -->
+    <div style="flex: 2; min-width: 300px; display: flex; flex-direction: column; gap: 12px;">
+      <span>The Asian water monitor (<em>Varanus salvator</em>) is a large varanid lizard native to South and Southeast Asia.</span>
+      <span>It is widely considered to be the second-largest lizard species, after the Komodo dragon.</span>
+      <span>It is distributed from eastern and northeastern India and Bangladesh, the Andaman and Nicobar Islands, Sri Lanka, through southern China and Hainan Island in the east to mainland Southeast Asia and the islands of Sumatra, Borneo, Java, Lombok, the Riau Archipelago, and Sulawesi.</span>
+      <span>The Asian water monitor is a large, heavy-bodied lizard with a long tail and strong limbs.</span>
+      <span>The Asian water monitor is known for its intelligence and adaptability, making it a popular choice among reptile enthusiasts.</span>
+      <span>However, they require a spacious and secure enclosure, as well as a varied diet to thrive in captivity.</span>
+      <span>The Asian water monitor is dark brown or blackish with yellow spots on the underside that fade gradually with age.</span>
+      <span>It has powerful jaws, serrated teeth and sharp claws.</span>
+    </div>
+
+  </div>
+
+  <div style="margin-top: 40px; text-align: center;">
+  <iframe width="640" height="360"
+          src="https://www.youtube.com/embed/UC2yf0gGYzY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+  </iframe>
+</div>
+
+</div>
+
+
+</div>
+
+ <p>Order your monitor lizard today! We offer a variety of species including the Nile Monitor, Asian Water Monitor, and Savannah Monitor. Each lizard is healthy and ready for a new home.</p>
+<div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px;"></div>
+<h3> Order form </h3>
+</dive>
+
+<form>
+  <fieldset>
+    <legend>Choose Your Interests (Max 3)</legend>
+    <label><input type="checkbox" name="interests" value="Music"> Music</label><br>
+    <label><input type="checkbox" name="interests" value="Sports"> Sports</label><br>
+    <label><input type="checkbox" name="interests" value="Reading"> Reading</label><br>
+    <label><input type="checkbox" name="interests" value="Traveling"> Traveling</label><br>
+    <label><input type="checkbox" name="interests" value="Cooking"> Cooking</label><br>
+    <label><input type="checkbox" name="interests" value="Gaming"> Gaming</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Preferred Contact Method</legend>
+    <select name="contact">
+      <option value="email">Email</option>
+      <option value="phone">Phone</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Input Contact Info</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required 
+           maxlength="40" 
+           pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><br>
+
+    <label for="number">Phone Number:</label>
+    <input type="tel" id="number" name="number" required 
+           pattern="\d{10,}" 
+           minlength="11"
+           title="Please enter at least 10 digits"><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <input type="submit" value="Submit Order">
+    <input type="reset" value="Reset Form">
+  </fieldset>
+</form>
 
 </body>
 </html>
