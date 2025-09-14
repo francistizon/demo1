@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name= "description" content=""Explore a variety of indoor plants for your home or office.">
+     <title> "Indoor Plants" </title>
+</head>
+
+<body>
+    <h1> Indoor Plants </h1>
+    <br>
+    <h2> Peace Lily </h2>
+    <p> "The Peace Lily, known for its elegant white flowers, is
+         a popular choice for indoor spaces."</p>
+    <p> Price: $15 </p>
+<img src="https://media.houseandgarden.co.uk/photos/64677ebe23689cbbe1bbad8f/1:1/w_2859,h_2859,c_limit/492766473" id="img" style="width: 560px; height: 560px;">
+
+<br>
+<h2>Zanzibar Gem </h2>
+    <br>
+    <p> The Zanzibar Gem, with its glossy green foliage,
+        is a low-maintenance indoor plant perfect for beginners. </p>
+        <p> Price: $20 </p>
+<img src="https://img.freepik.com/premium-photo/indoor-potted-plant-zanzibar-gem-zz-plant-zamioculcas-zamifolia_734910-466.jpg?w=2000" id="img" style="width: 560px; height: 560px;">
+
+</body>
