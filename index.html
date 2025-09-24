@@ -1,118 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Log-in Form</title>
+  <meta charset="UTF-8">
+  <title>Harbor Light Community Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .center-and-space-content {
+      text-align: center;
+      padding: 10px;
+    }
+    nav[role="navigation"] ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav[role="navigation"] li {
+      display: inline;
+      margin: 0 10px;
+    }
+    nav[role="navigation"] a {
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
 </head>
 <body>
-    <h1 style="text-align: center; font-family: 'Georgia', serif; color: #333; margin-top: 40px;">
-   Monitor Lizard Order Form
-</h1>
 
-    <hr>
-    <h2>Lizard Details</h2>
-<div style="padding: 22px; max-width: 1000px; font-size: 18px; line-height: 1.6;">
-
-  <h3>Asian Water Monitor</h3>
-
-  <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
-
-    <!-- Left Column: Images -->
-    <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px;">
-      <div>
-        <img src="https://i.pinimg.com/originals/a3/cf/ba/a3cfba3880641f5b1f4fca8642662475.jpg" 
-             alt="Asian Water Monitor" 
-             style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-      </div>
-
-      <div>
-        <img src="https://a-z-animals.com/media/2018/09/Monitor-lizard-header.jpg" 
-             alt="Asian Water Monitor Close-up" 
-             style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-      </div>
-
-      <p style="font-size: 14px; color: #555; margin-top: 8px;">
-        By <a href="//commons.wikimedia.org/w/index.php?title=User:Kongkham6211&amp;action=edit&amp;redlink=1" title="User:Kongkham6211 (page does not exist)">Kongkham6211</a> – 
-        <span>Own work</span>, 
-        <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, 
-        <a href="https://commons.wikimedia.org/w/index.php?curid=70950731">Source</a>
-      </p>
+  <header>
+    <div class="center-and-space-content">
+      <img src="https://edube.org/uploads/media/default/0001/04/logo.jpg" alt="Harbor Light Community Center Logo">
+      <h1>Welcome to Harbor Light Community Center</h1>
     </div>
+  </header>
 
-    <!-- Right Column: Text -->
-    <div style="flex: 2; min-width: 300px; display: flex; flex-direction: column; gap: 12px;">
-      <span>The Asian water monitor (<em>Varanus salvator</em>) is a large varanid lizard native to South and Southeast Asia.</span>
-      <span>It is widely considered to be the second-largest lizard species, after the Komodo dragon.</span>
-      <span>It is distributed from eastern and northeastern India and Bangladesh, the Andaman and Nicobar Islands, Sri Lanka, through southern China and Hainan Island in the east to mainland Southeast Asia and the islands of Sumatra, Borneo, Java, Lombok, the Riau Archipelago, and Sulawesi.</span>
-      <span>The Asian water monitor is a large, heavy-bodied lizard with a long tail and strong limbs.</span>
-      <span>The Asian water monitor is known for its intelligence and adaptability, making it a popular choice among reptile enthusiasts.</span>
-      <span>However, they require a spacious and secure enclosure, as well as a varied diet to thrive in captivity.</span>
-      <span>The Asian water monitor is dark brown or blackish with yellow spots on the underside that fade gradually with age.</span>
-      <span>It has powerful jaws, serrated teeth and sharp claws.</span>
-    </div>
+ <ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Services</li>
+  <li>Events</li>
+  <li>Contact</li>
+</ul>
 
+
+
+  <div class="banner">
+    <img src="https://edube.org/uploads/media/default/0001/04/decorative-banner.jpg" alt="" aria-hidden="true">
   </div>
 
-  <div style="margin-top: 40px; text-align: center;">
-  <iframe width="640" height="360"
-          src="https://www.youtube.com/embed/UC2yf0gGYzY"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-  </iframe>
-</div>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>The Harbor Light Community Center has been at the heart of our community for over 30 years, offering a wide range of services and programs designed to support and enrich the lives of our residents.</p>
+      <p><img src="https://edube.org/uploads/media/default/0001/04/community-center.jpg" alt="Harbor Light Community Center People" hspace="10" vspace="10"></p>
+    </section>
 
-</div>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>From educational workshops and sports leagues to wellness programs and art classes, our services are tailored to meet the diverse needs of our community members.</p>
+    </section>
 
+    <section id="events" itemscope itemtype="http://schema.org/Event">
+      <h2>Join Our Events</h2>
+      <p itemprop="description">Our community center is a hub of activity, hosting events throughout the year. Don't miss our annual summer festival for fun, food, and festivities for all ages.</p>
+      <p>
+        <strong>Annual Summer Festival</strong><br>
+        Starts: <time itemprop="startDate" datetime="2050-07-20">July 20, 2050</time>
+      </p>
+    </section>
+  </main>
 
-</div>
-
- <p>Order your monitor lizard today! We offer a variety of species including the Nile Monitor, Asian Water Monitor, and Savannah Monitor. Each lizard is healthy and ready for a new home.</p>
-<div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px;"></div>
-<h3> Order form </h3>
-</dive>
-
-<form>
-  <fieldset>
-    <legend>Choose Your Interests (Max 3)</legend>
-    <label><input type="checkbox" name="interests" value="Music"> Music</label><br>
-    <label><input type="checkbox" name="interests" value="Sports"> Sports</label><br>
-    <label><input type="checkbox" name="interests" value="Reading"> Reading</label><br>
-    <label><input type="checkbox" name="interests" value="Traveling"> Traveling</label><br>
-    <label><input type="checkbox" name="interests" value="Cooking"> Cooking</label><br>
-    <label><input type="checkbox" name="interests" value="Gaming"> Gaming</label>
-  </fieldset>
-
-  <fieldset>
-    <legend>Preferred Contact Method</legend>
-    <select name="contact">
-      <option value="email">Email</option>
-      <option value="phone">Phone</option>
-    </select>
-  </fieldset>
-
-  <fieldset>
-    <legend>Input Contact Info</legend>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required 
-           maxlength="40" 
-           pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"><br>
-
-    <label for="number">Phone Number:</label>
-    <input type="tel" id="number" name="number" required 
-           pattern="\d{10,}" 
-           minlength="11"
-           title="Please enter at least 10 digits"><br>
-
-    <label for="address">Address:</label>
-    <input type="text" id="address" name="address" required><br>
-
-    <input type="submit" value="Submit Order">
-    <input type="reset" value="Reset Form">
-  </fieldset>
-</form>
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to get involved? <a href="mailto:info@harborlight.com">Email us!</a></p>
+    <p>© 2050 Harbor Light Community Center</p>
+  </footer>
 
 </body>
 </html>
+
